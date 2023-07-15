@@ -429,6 +429,29 @@ p {
   opacity: 1;
 }
 
+/*9 pricing section */
+.price_wrapper .card {
+  box-shadow: 0 0.125rem 0.25rem rgb(34 30 31 / 40%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.price_wrapper .card:hover {
+  background-color: var(--secondary-color);
+}
+
+.price_wrapper .card:hover h3,
+.price_wrapper .card:hover h5,
+.price_wrapper .card:hover p {
+  color: var(--text-white);
+}
+
+.price_wrapper .card:hover .main-btn {
+  color: var(--text-white);
+  border-color: var(--bg-white);
+}
+
 /*10 blog */
 .blog-content {
   margin: -2rem 0 0 4.375rem;
